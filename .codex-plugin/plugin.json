@@ -1,0 +1,33 @@
+{
+  "name": "defensive-cybersecurity-safe",
+  "version": "0.1.0",
+  "description": "Conservative read-only defensive security reviews for application code, APIs, WebSockets, dependencies, CI/CD, containers, IaC, and architecture.",
+  "author": {
+    "name": "Local Curated Derivative"
+  },
+  "license": "Apache-2.0",
+  "keywords": [
+    "defensive-security",
+    "secure-code-review",
+    "threat-modeling",
+    "devsecops",
+    "read-only"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Defensive Cybersecurity Safe",
+    "shortDescription": "Read-only security reviews for code and configuration",
+    "longDescription": "A defensive-only allowlisted skill pack with no scripts, active probing, external uploads, credential access, exploitation, or system modification.",
+    "developerName": "Local Curated Derivative",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "defaultPrompt": [
+      "Review this repository for defensive security risks without changing anything.",
+      "Threat-model this codebase in read-only mode.",
+      "Review this API, WebSocket, container, and CI configuration for security risks."
+    ]
+  }
+}
